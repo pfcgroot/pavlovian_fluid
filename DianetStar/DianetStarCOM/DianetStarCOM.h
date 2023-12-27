@@ -15,9 +15,6 @@
 //
 // Parts of this software are based on an example application provided by Braun.
 //
-// $Rev::               $:  Revision of last commit
-// $Author::            $:  Author of last commit
-// $Date::              $:  Date of last commit
 
 #pragma once
 

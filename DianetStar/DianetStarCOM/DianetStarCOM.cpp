@@ -18,9 +18,6 @@
 // Created by Paul F.C. Groot
 // Copyright 2010-2011, Academisch Medisch Centrum Amsterdam, The Netherlands
 //
-// $Rev::               $:  Revision of last commit
-// $Author::            $:  Author of last commit
-// $Date::              $:  Date of last commit
 
 #include "stdafx.h"
 #include <stdio.h>			// for fprintf logging
@@ -1104,7 +1101,7 @@ extern "C"
 			assign(request, status.request);		/* actions have occurred on teh pump: operation, limit value mod., alarm suppression */
 			assign(alarm, status.alarm);			/* actual alarm */
 			assign(zustand, status.zustand);		/* operating mode on pump */
-			assign(rate, status.rate);				/* actual rate [ 10µl/h] */
+			assign(rate, status.rate);				/* actual rate [ 10ï¿½l/h] */
 			assign(remainvtbd, status.remainvtbd);	/* remaining volume to be delivered (vtbd) [0.1ml] */
 			assign(remaintime, status.remaintime);	/* remaining time of TIME for vtbd [min] */
 		}
