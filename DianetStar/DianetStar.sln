@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DianetStarCOM", "DianetStarCOM\DianetStarCOM.vcproj", "{6D1B9DEE-368B-47F7-BB2B-61FF799522FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E422C19E-1FE4-4B4A-9F02-114D9F9185A4} = {E422C19E-1FE4-4B4A-9F02-114D9F9185A4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IO_RS232", "IO_RS232\IO_RS232.vcproj", "{E422C19E-1FE4-4B4A-9F02-114D9F9185A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{C5C92F66-660D-4CAB-A73C-47D0FED1A3EC}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\Spezifikation_Dianet_Star_en.doc = Docs\Spezifikation_Dianet_Star_en.doc
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestInterface", "TestInterface\TestInterface.vcproj", "{2147CEF0-6B30-4F63-AB53-06CEEF8DB6C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D1B9DEE-368B-47F7-BB2B-61FF799522FC} = {6D1B9DEE-368B-47F7-BB2B-61FF799522FC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D1B9DEE-368B-47F7-BB2B-61FF799522FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D1B9DEE-368B-47F7-BB2B-61FF799522FC}.Debug|Win32.Build.0 = Debug|Win32
+		{6D1B9DEE-368B-47F7-BB2B-61FF799522FC}.Release|Win32.ActiveCfg = Release|Win32
+		{6D1B9DEE-368B-47F7-BB2B-61FF799522FC}.Release|Win32.Build.0 = Release|Win32
+		{E422C19E-1FE4-4B4A-9F02-114D9F9185A4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E422C19E-1FE4-4B4A-9F02-114D9F9185A4}.Debug|Win32.Build.0 = Debug|Win32
+		{E422C19E-1FE4-4B4A-9F02-114D9F9185A4}.Release|Win32.ActiveCfg = Release|Win32
+		{E422C19E-1FE4-4B4A-9F02-114D9F9185A4}.Release|Win32.Build.0 = Release|Win32
+		{2147CEF0-6B30-4F63-AB53-06CEEF8DB6C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2147CEF0-6B30-4F63-AB53-06CEEF8DB6C1}.Debug|Win32.Build.0 = Debug|Win32
+		{2147CEF0-6B30-4F63-AB53-06CEEF8DB6C1}.Release|Win32.ActiveCfg = Release|Win32
+		{2147CEF0-6B30-4F63-AB53-06CEEF8DB6C1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
